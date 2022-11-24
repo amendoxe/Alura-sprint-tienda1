@@ -39,7 +39,7 @@ header form {
 .buscar-btn:hover {
 	color: var(--link-kblue);
 }
-.header__login-button {
+.btn-style {
 	margin-right: 2rem;
 	min-width: 130px;
 	height: 40px;
@@ -56,16 +56,16 @@ header form {
 	border: none;
 	background-color: var(--link-kblue);
 }
-.header__login-button:hover {
+.btn-style:hover {
 	border-radius: 5px;
 	padding-right: 24px;
 	padding-left: 8px;
 }
-.header__login-button:hover:after {
+.btn-style:hover:after {
 	opacity: 1;
 	right: 10px;
 }
-.header__login-button:after {
+.btn-style:after {
 	content: "\00BB";
 	position: absolute;
 	opacity: 0;
