@@ -1,0 +1,77 @@
+header {
+	height: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.header__left {
+	display: flex;
+	justify-content: space-around;
+}
+.header__title {
+	margin-left: 2rem;
+}
+header form {
+	display: flex;
+	align-items: center;
+	margin-left: 2rem;
+}
+.buscar-input {
+	width: 300px;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	border-radius: 10vh;
+	background-color: var(--back-grey);
+	color: var(--txt-grey);
+}
+
+.buscar-btn {
+	font-size: 20px;
+	background-color: var(--back-grey);
+	border: none;
+	outline: none;
+	margin-left: -35px;
+	color: var(--txt-grey);
+	transition: all 0.2s ease;
+}
+
+.buscar-btn:hover {
+	color: var(--link-kblue);
+}
+.header__login-button {
+	margin-right: 2rem;
+	min-width: 130px;
+	height: 40px;
+	color: #fff;
+	padding: 5px 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	overflow: hidden;
+	border-radius: 5px;
+	border: none;
+	background-color: var(--link-kblue);
+}
+.header__login-button:hover {
+	border-radius: 5px;
+	padding-right: 24px;
+	padding-left: 8px;
+}
+.header__login-button:hover:after {
+	opacity: 1;
+	right: 10px;
+}
+.header__login-button:after {
+	content: "\00BB";
+	position: absolute;
+	opacity: 0;
+	font-size: 20px;
+	line-height: 40px;
+	top: 0;
+	right: -20px;
+	transition: 0.4s;
+}

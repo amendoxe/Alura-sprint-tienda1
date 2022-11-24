@@ -5,15 +5,23 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="./assets/images/icons/logo-controller.svg" type="image/x-icon" />
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 		<title>AluraGeek</title>
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./assets/css/header.css" />
 	</head>
 	<body>
 		<header>
 			<div class="header__left">
 				<img src="./assets/images/icons/logo.svg" alt="AluraGeek logo" class="header__logo" />
-				<h1 class="header__title"></h1>
-				<input type="search" name="search" class="header__search" placeholder="¿Qué deseas buscar? 🔎" />
+				<form action="#">
+					<input type="text" class="buscar-input" placeholder="¿Qué deseas buscar?" />
+
+					<button class="buscar-btn">
+						<i class="fas fa-search"></i>
+					</button>
+				</form>
 			</div>
 			<button class="header__login-button">Login</button>
 		</header>
