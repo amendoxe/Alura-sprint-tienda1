@@ -75,3 +75,9 @@ header form {
 	right: -20px;
 	transition: 0.4s;
 }
+::placeholder {
+	font-family: "Raleway", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: var(--txt-grey);
+	font-weight: 400;
+	font-size: 14px;
+}
