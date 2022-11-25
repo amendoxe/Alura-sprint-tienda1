@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="./assets/css/header.css" />
 		<link rel="stylesheet" href="./assets/css/banner.css" />
 		<link rel="stylesheet" href="./assets/css/section.css" />
+		<link rel="stylesheet" href="./assets/css/footer.css" />
 	</head>
 	<body>
 		<header>
@@ -256,27 +257,30 @@
 			</section>
 		</main>
 		<section class="pre-footer">
-			<img src="./assets/images/icons/logo.svg" alt="" /><a href="#">
-				<p class="footer__link">Quienes somos</p> </a
-			><a href="#"> <p class="footer__link">Politica de Privacidad</p> </a
-			><a href="#"> <p class="footer__link">Programa de fidelidad</p> </a
-			><a href="#"> <p class="footer__link">Nuestras Tiendas</p> </a
-			><a href="#"> <p class="footer__link">Quiero ser franquiciado</p> </a
-			><a href="#">
-				<p class="footer__link">Anuncie aquí</p>
-			</a>
+			<img src="./assets/images/icons/logo.svg" alt="" class="logo-foot" />
+
+			<div class="pre-footer__link-area">
+				<a href="#"> <p class="link-foot-text footer__link">Quienes somos</p> </a
+				><a href="#"> <p class="link-foot-text footer__link">Politica de Privacidad</p> </a
+				><a href="#"> <p class="link-foot-text footer__link">Programa de fidelidad</p> </a
+				><a href="#"> <p class="link-foot-text footer__link">Nuestras Tiendas</p> </a
+				><a href="#"> <p class="link-foot-text footer__link">Quiero ser franquiciado</p> </a
+				><a href="#">
+					<p class="link-foot-text footer__link">Anuncie aquí</p>
+				</a>
+			</div>
 			<form class="form-message">
 				<h3 class="form-title">Hable con nosotros</h3>
-				<h3 class="form__header"></h3>
+
 				<label for="nombre">Nombre</label>
-				<input type="text" name="nombre" id="" />
+				<input type="text" name="nombre" id="" class="in-text" />
 				<label for="mensaje">Escribe tu mensaje</label>
-				<input type="text" name="mensaje" id="" />
-				<input type="button" value="Enviar mensaje" />
+				<input type="text" name="mensaje" id="" class="in-text" />
+				<input type="button" value="Enviar mensaje" class="btn-style" />
 			</form>
 		</section>
 		<footer>
-			<p class="footer__text">Desarrollado por Arturo</p>
+			<p class="footer__text">Desarrollado por Arturo Mendoza</p>
 			<br />
 			<p class="footer__text">2022</p>
 		</footer>

@@ -1,0 +1,72 @@
+.pre-footer {
+    background-color: var(--back-tblue);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
+.logo-foot {
+    padding-top: 4rem;
+    margin-left: 8rem;
+}
+
+.pre-footer__link-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.link-foot-text {
+    color: var(--title-grey);
+    padding: .7rem;
+}
+
+.link-foot-text:hover {
+    color: var(--link-kblue);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9rem;
+    margin-top: 1rem;
+    width: 30vw;
+}
+
+.form-title {
+    color: var(--title-grey);
+}
+
+.form-message label {
+    color: var(--txt-grey);
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.in-text {
+    color: var(--txt-grey);
+    background-color: white;
+    text-decoration: none;
+    border-style: none;
+}
+
+.in-text text:focus {
+    border-style: none;
+    border-color: #171321;
+}
+
+.btn-style {
+    width: 2rem;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+}
