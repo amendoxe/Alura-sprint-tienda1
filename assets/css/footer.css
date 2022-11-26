@@ -55,6 +55,7 @@
     background-color: white;
     text-decoration: none;
     border-style: none;
+    resize: none;
 }
 
 .in-text text:focus {
@@ -69,4 +70,36 @@
 
 footer {
     text-align: center;
+}
+
+@media screen and (max-width:800px) {
+
+    .logo-foot {
+        padding-top: 0;
+        padding: 0;
+        margin-right: 80vw;
+    }
+
+    .form-message {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .logo-foot {
+        padding-top: 0;
+        padding: 0;
+        margin: 1rem auto;
+    }
+
+    .form-message {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 80vw;
+    }
 }
