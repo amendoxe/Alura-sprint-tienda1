@@ -5,8 +5,10 @@ header {
 	justify-content: space-around;
 }
 
-.header__left {
+.header__right {
+	/* FIXME */
 	display: flex;
+	width: 70%;
 	justify-content: space-between;
 }
 
@@ -144,16 +146,15 @@ header form {
 @media screen and (max-width:400px) {
 	header {
 		height: 5rem;
-		display: flex;
-		align-items: center;
 		justify-content: space-evenly;
 		flex-wrap: nowrap;
 	}
 
-	header__left {
-		display: flex;
+	.header__right {
+		/* FIXME */
+		flex-wrap: nowrap;
 		flex-direction: row-reverse;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	header form {
@@ -163,13 +164,14 @@ header form {
 	}
 
 	.header__logo {
-		max-width: 100vw;
+		min-width: 40vw;
 	}
 
 	.buscar-input {
-		width: 17vw;
-		min-width: 20vw;
-		padding: 10px 20px;
+		width: 2vw;
+		min-width: 2vw;
+		/* padding: 10px 20px; */
+		margin-right: 1rem;
 		border: none;
 		outline: none;
 		border-radius: 10vh;
@@ -182,7 +184,7 @@ header form {
 		background-color: var(--back-grey);
 		border: none;
 		outline: none;
-		margin-left: -35px;
+		/* margin-left: -35px; */
 		color: var(--txt-grey);
 		transition: all 0.2s ease;
 	}
@@ -190,5 +192,9 @@ header form {
 	.btn-style {
 		margin-right: 2rem;
 		min-width: 90px;
+	}
+
+	::placeholder {
+		display: none;
 	}
 }
