@@ -31,9 +31,6 @@
 	flex-wrap: wrap;
 }
 
-.section__double-products {
-	display: flex;
-}
 
 .section__single-products {
 	display: flex;
@@ -63,3 +60,19 @@
 	font-weight: 500;
 	color: var(--link-kblue);
 }
+
+@media screen and (max-width:800px) {
+	.section__title {
+		justify-content: space-between;
+		padding: 0 2rem;
+	}
+
+	.section__single-products:nth-last-of-type(-n+2) {
+		display: none;
+		background-color: aqua;
+		color: aqua;
+	}
+
+}
+
+@media screen and (max-width:400px) {}

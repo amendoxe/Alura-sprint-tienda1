@@ -22,3 +22,7 @@ body {
     --white: #f7f8fa;
     --font-size: 1.3rem;
 }
+
+img {
+    max-width: 100%;
+}
