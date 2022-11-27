@@ -1,5 +1,13 @@
+.title-product-style {
+    margin-top: 2rem;
+}
+
 .agregar-btn {
     width: 9rem;
+}
+
+.section__all {
+    margin: 2rem 2rem;
 }
 
 @media screen and (max-width:500px) {

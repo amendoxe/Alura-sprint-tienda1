@@ -1,8 +1,8 @@
 .section__title {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin: 1rem auto;
+	/* align-items: center; */
+	/* margin: 1rem auto; */
 	padding: 0 14rem;
 }
 
@@ -74,5 +74,3 @@
 	}
 
 }
-
-@media screen and (max-width:400px) {}
