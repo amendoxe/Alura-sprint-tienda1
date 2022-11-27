@@ -69,7 +69,11 @@
 }
 
 footer {
+    padding: 2rem;
     text-align: center;
+    /* height: 12vh; */
+    clear: both;
+    margin-bottom: -20px;
 }
 
 @media screen and (max-width:800px) {
@@ -85,6 +89,11 @@ footer {
         flex-direction: column;
         margin: 1rem auto;
         width: 50vw;
+    }
+
+    .btn-style {
+        width: 10rem;
+        margin-top: 5px;
     }
 }
 

@@ -2,6 +2,8 @@ main {
     background-color: var(--back-grey);
     display: flex;
     justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .form-agrega {
